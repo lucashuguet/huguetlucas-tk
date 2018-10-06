@@ -1,0 +1,10 @@
+
+# HTID:3475597: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:3475597:
+
+ErrorDocument 401 /ERROR/401.html
+ErrorDocument 402 /ERROR/402.html
+ErrorDocument 403 /ERROR/403.html
+ErrorDocument 404 /ERROR/404.html
+ErrorDocument 500 /ERROR/500.html
