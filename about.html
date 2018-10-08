@@ -9,23 +9,47 @@
     <meta name="description" content="Web design">
     <meta name="author" content="Lucas Huguet">
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png"> <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png"> <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png"> <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png"> <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png"> <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png"> <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png"> <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png"> <link rel="apple-touch-icon" sizes="180x180" href="imgapple-icon-180x180.png"> <link rel="icon" type="img/png" sizes="192x192" href="img/android-icon-192x192.png"> <link rel="icon" type="img/png" sizes="32x32" href="img/favicon-32x32.png"> <link rel="icon" type="img/png" sizes="96x96" href="img/favicon-96x96.png"> <link rel="icon" type="img/png" sizes="16x16" href="img/favicon-16x16.png"> <link rel="manifest" href="/manifest.json"> <meta name="msapplication-TileColor" content="#ffffff"> <meta name="msapplication-TileImage" content="/ms-icon-144x144.png"> <meta name="theme-color" content="#ffffff">
+    <script src="./js/jQuery.js" charset="utf-8"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgapple-icon-180x180.png">
+    <link rel="icon" type="img/png" sizes="192x192" href="img/android-icon-192x192.png">
+    <link rel="icon" type="img/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="img/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="img/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Huguet Lucas</span> tk</h1>
+    <header role="header">
+        <nav role="navigation" class="menu">
+            <div class="inner">
+                <div class="menu">
+                    <div class="m-left">
+                        <h1 class="logo"><span class="highlight">Huguet Lucas</span> Tk</h1>
+                    </div>
+                    <div class="m-right">
+                        <a href="#" class="m-link"><i class="fas fa-home"></i> Accueil</a>
+                        <a href="#" class="m-link"><i class="fas fa-question-circle"></i> A propos</a>
+                        <a href="#" class="m-link"><i class="fas fa-gamepad"></i> Jeux</a>
+                    </div>
+                    <div class="m-nav-toggle">
+                        <span class="m-toggle-icon"></span>
+                    </div>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li class="current"><a href="about.html">À propos</a></li>
-                    <li><a href="services.html">Jeux</a></li>
-                </ul>
-            </nav>
-        </div>
+        </nav>
+
+
     </header>
     <section id="showcase">
         <div class="container">
@@ -45,6 +69,7 @@
     <footer>
         <p>Le Web design est cool, Copyright &copy; 2018</p>
     </footer>
+    <script src="./js/app.js" charset="utf-8"></script>
 </body>
 
 </html>
