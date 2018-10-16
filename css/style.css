@@ -99,7 +99,14 @@ span.m-toggle-icon:after{top: -14px;}
 }
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 912px){
+    #newsletter h1{
+        float: right;
+    }
+
+    input{
+        width: 40px;
+    }
     .m-right{
         position: absolute;
         top: 0px;right: 0;left: 0;
@@ -154,6 +161,8 @@ ul{
 #showcase{
     min-height: 400px;
     background: url('../img/showcase.jpg') no-repeat 0 -400px;
+    background-size: cover;
+    background-position: center;
     text-align: center;
     color: #ffffff;
 }
@@ -172,6 +181,20 @@ ul{
     padding: 15px;
     color: #ffffff;
     background: #35424a;
+}
+button{
+    border-radius: 5px;
+}
+
+input{
+    border-radius: 5px;
+    color: #f4f4f4;
+    border: 2px solid transparent;
+    transition: all 0.9s ;
+}
+
+input:focus{
+    border-color: #e8491d;
 }
 
 #newsletter h1{
@@ -247,8 +270,9 @@ footer{
     
 }
 
-@media only screen and (max-width: 880px){
+@media only screen and (max-width: 890px){
     nav{
         display: block;
     }
 }
+
