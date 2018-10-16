@@ -100,13 +100,6 @@ span.m-toggle-icon:after{top: -14px;}
 
 
 @media only screen and (max-width: 912px){
-    #newsletter h1{
-        float: right;
-    }
-
-    input{
-        width: 40px;
-    }
     .m-right{
         position: absolute;
         top: 0px;right: 0;left: 0;
