@@ -1,0 +1,16 @@
+{
+    "name": "Lucas Huguet TK",
+    "short_name": "LucasTK",
+    "lang": "fr",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#35424a",
+    "background_color": "#e8491d",
+    "icons": [
+        {
+            "src": "img/apple-icon.png",
+            "size": "192×192",
+            "type": "image/png"
+        }
+    ]
+}

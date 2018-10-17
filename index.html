@@ -29,6 +29,25 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <meta name="google-site-verification" content="XpCwMp-UUnlCWKeUkVDSQIO3Qn8LqShRIbAzD0A2mco" />
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration succeful width scope: ', registration.scope)
+                    },
+                    function (err) {
+                        // Registration failed :(
+                        console.log('ServiceWorker registration failed: ', err)
+                    }
+                )
+            })
+        }
+    </script>
+
+
 </head>
 
 <body>
