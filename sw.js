@@ -1,4 +1,4 @@
-const cacheName = 'v1';
+const cacheName = 'v2';
 const cacheAsset = [
     'index.html',
     'about.html',
@@ -7,10 +7,6 @@ const cacheAsset = [
     '/src/css/style.css',
     '/src/js/app.js',
     '/src/js/jQuery.js',
-    'src/Video/Lego.mov',
-    'src/Video/Lego.mp4',
-    'src/Video/Lego.ogv',
-    'src/Video/Lego.webm'
 ];
 
 self.addEventListener('install', e => {
@@ -29,4 +25,16 @@ self.addEventListener('install', e => {
 
 self.addEventListener('activate', e => {
     console.log('Service Worker activated')
+
+    e.waitUntil(
+        caches.keys().then(cacheNames => {
+            return Promise.all(
+                cacheNames.map(cache => {
+                    if (cache !== cacheName) {
+                        console.log('Service Worker: Clearing Old Cache')
+                    }
+                })
+            )
+        })
+    )
 })
