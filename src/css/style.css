@@ -134,8 +134,23 @@ span.m-toggle-icon:after{top: -14px;}
     }
 
     #newsletter div .h1 {
-        padding-left: 50%;
-        padding-right: 50%;
+        float: none;
+        padding: 5px 5px;
+    }
+
+    #newsletter .form form input {
+        width: 50%;
+        float: none;
+    }
+
+    #newsletter .form form button {
+        width: 40%;
+        float: none;
+    }
+
+    #newsletter .form form {
+        padding: 5% 5%; 
+        float: none;
     }
 
 }
