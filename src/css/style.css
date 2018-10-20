@@ -109,6 +109,11 @@ span.m-toggle-icon:after{top: -14px;}
     transform: rotate(-45deg);
 }
 
+@media only screen and (max-width: 1220px){
+    #jeux li {
+        margin-bottom: 10px;
+    }
+}
 
 @media only screen and (max-width: 912px){
     .m-right{
@@ -252,16 +257,16 @@ footer{
 }
 
 #jeux nav{
-    float: none;
     margin-top: 10px;
 }
 
 #jeux li{
     border: 3px #e8491d solid;
     border-radius: 5px;
-    display: inline;
+    display: inline-block;
     padding: 0 20px 0 20px;
     background-color: #e8491d;
+    width: auto;
 }
 
 #jeux a{
