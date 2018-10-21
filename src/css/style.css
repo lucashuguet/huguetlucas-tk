@@ -9,6 +9,26 @@ html, body{
     overflow-x: hidden;
 }
 
+iframe {
+    margin: auto;
+    padding: 0 5px;
+    display: inline-block;
+    align-items: center;
+}
+
+p{
+    display: block;
+    align-items: center;
+    margin-left: 40%;
+}
+
+header{
+    padding: 0;margin: 0;
+    position: fixed;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
 .video{
     position: relative;
     padding: 2% 2%;
@@ -125,6 +145,11 @@ span.m-toggle-icon:after{top: -14px;}
         transform: translateY(-100%);
         transition: all 0.3s ease-in-out;
     }
+
+    header {
+        position: relative;
+    }
+
     .m-nav-toggle{
         display: flex;
     }
