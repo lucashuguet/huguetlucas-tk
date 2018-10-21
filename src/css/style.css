@@ -22,6 +22,35 @@ p{
     margin: 0 40%;
 }
 
+#about{
+    text-align: center;
+}
+
+#about p{
+    margin: 5px 10px;
+    padding: 10px;
+    font-family: Lato;
+    font-size: 20px;
+}
+
+#about a{
+    text-decoration: none;
+    color: black;
+}
+
+#about .gitlab:hover{
+    color: #e8491d;
+}
+
+#about .netlify:hover{
+    color: #00b09f;
+}
+
+.social {
+    align-items: center;
+    margin: 2px 42%;
+}
+
 header{
     padding: 0;margin: 0;
     position: fixed;
