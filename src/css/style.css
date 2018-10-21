@@ -11,15 +11,15 @@ html, body{
 
 iframe {
     margin: auto;
-    padding: 0 5px;
+    padding: 0 50px;
     display: inline-block;
     align-items: center;
 }
 
 p{
-    display: block;
+    display: inline-block;
     align-items: center;
-    margin-left: 40%;
+    margin: 0 40%;
 }
 
 header{
