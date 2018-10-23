@@ -2,7 +2,7 @@
     "name": "Lucas Huguet TK",
     "short_name": "LucasTK",
     "lang": "fr",
-    "start_url": "/",
+    "start_url": "./index.html",
     "display": "standalone",
     "theme_color": "#35424a",
     "background_color": "#e8491d",
