@@ -5,4 +5,3 @@ $('.m-nav-toggle').click(function(e){
     $('.m-right').toggleClass('is-open');
     $('.m-nav-toggle').toggleClass('is-open');
 })
-
