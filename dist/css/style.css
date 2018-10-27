@@ -9,6 +9,12 @@ html, body{
     overflow-x: hidden;
 }
 
+.color{
+    width: 100%;
+    height: 10px;
+    color: #35424a;
+}
+
 iframe {
     margin: auto;
     padding: 0 50px;
