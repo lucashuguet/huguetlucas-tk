@@ -36,22 +36,6 @@
             enable_page_level_ads: true
         });
     </script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js').then(
-                    function (registration) {
-                        console.log('Service Worker registration successful with scope : ', registration.scope)
-                    },
-
-                    function (err) {
-                        console.log('ServiceWorker registration failed : ', err)
-                    }
-                )
-            })
-        }
-    </script>
-
 </head>
 
 <body>
@@ -81,29 +65,6 @@
         <div class="container">
             <h1>Mini jeu en html</h1>
             <p><span class="highlight">Huguet Lucas </span>tk</p>
-        </div>
-    </section>
-    <section id="newsletter">
-        <div class="container">
-            <div>
-                <h1 class="h1">Abonnez-vous à notre NewsLetter</h1>
-            </div>
-            <div class="form">
-                <form method="POST" netlify>
-                    <input name="email" type="email" placeholder="Enter Email...">
-                    <button type="submit" class="button_1">S'abonner</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <section id="video">
-        <div class="video">
-            <video controls width="700" height="600" src="./dist/VideoLego/Lego.mp4">
-                <source src="./dist/VideoLego/Lego.webm" type="video/webm" />
-                <source src="./dist/VideoLego/Lego.mp4" type="video/mp4" />
-                <source src="./dist/VideoLego/Lego.mov" type="video/mov" />
-                <source src="./dist/VideoLego/Lego.ogv" type="video/ogg" />
-            </video>
         </div>
     </section>
     <footer>
