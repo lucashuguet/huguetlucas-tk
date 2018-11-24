@@ -11,6 +11,11 @@
             "src": "/dist/logo.png",
             "size": "512×512",
             "type": "image/png"
+        },
+        {
+            "src": "/dist/logo-144.png",
+            "size": "144×144",
+            "type": "image/png"
         }
     ]
 }
